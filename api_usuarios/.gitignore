@@ -1,23 +1,12 @@
-# Arquivo .env (NÃO subir para o GitHub)
 .env
-
-# Banco SQLite (opcional, mas recomendável)
 *.sqlite3
-
-# Cache do Python
 __pycache__/
 *.pyc
 *.pyo
-
-# Arquivos temporários do Django
 *.log
 staticfiles/
 media/
-
-# Virtualenv
 venv/
 .env/
 .venv/
-
-# Config do VS Code
 .vscode/
