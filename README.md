@@ -14,7 +14,7 @@ Django REST Framework 3.16.1
 SQLite (banco padrão do Django)
 
 📂 Estrutura principal do projeto
-/api_usuarios
+/API_Usuarios_Django
     ├── api_usuarios/
     │   ├── settings.py
     │   ├── urls.py
@@ -25,9 +25,7 @@ SQLite (banco padrão do Django)
     ├── manage.py
 
 🧩 Endpoints da API
-
-Base URL:
-
+Base URL
 http://127.0.0.1:8000/api/usuarios/
 
 ➕ Criar usuário (POST)
@@ -74,14 +72,10 @@ python manage.py runserver
 
 
 Acesse:
-
 👉 http://127.0.0.1:8000/api/usuarios/
 
-
 🗃️ Banco de Dados
-
 Modelo utilizado:
-
 class Usuario(models.Model):
     nome = models.CharField(max_length=150)
     email = models.EmailField(unique=True)
